@@ -1,0 +1,1 @@
+.baz{--correct-1:calc(var(--foo)*0.2 - var(--bar)*0.8);--correct-2:var(--foo) * 0.4 - var(--bar) * 0.4;--incorrect-1:calc(var(--foo) - var(--bar));--incorrect-2:calc(var(--foo) - var(--bar));--incorrect-3:calc(var(--foo) - var(--bar))}
